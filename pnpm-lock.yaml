@@ -376,6 +376,7 @@ importers:
 
   examples/react17:
     specifiers:
+      '@amap/amap-jsapi-loader': ^1.0.1
       '@babel/core': 7.12.3
       '@babel/plugin-proposal-nullish-coalescing-operator': ^7.17.12
       '@babel/plugin-proposal-optional-chaining': ^7.17.12
@@ -444,6 +445,7 @@ importers:
       webpack-manifest-plugin: 2.2.0
       workbox-webpack-plugin: 5.1.4
     dependencies:
+      '@amap/amap-jsapi-loader': 1.0.1
       '@babel/core': 7.12.3
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3_t4ezke4netssl24gycl5qjajya
       '@svgr/webpack': 5.5.0
@@ -929,6 +931,10 @@ packages:
   /@alloc/quick-lru/5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+    dev: false
+
+  /@amap/amap-jsapi-loader/1.0.1:
+    resolution: {integrity: sha512-nPyLKt7Ow/ThHLkSvn2etQlUzqxmTVgK7bIgwdBRTg2HK5668oN7xVxkaiRe3YZEzGzfV2XgH5Jmu2T73ljejw==}
     dev: false
 
   /@ampproject/remapping/1.0.1:
@@ -11412,6 +11418,7 @@ packages:
       pify: 4.0.1
       schema-utils: 2.7.1
       webpack: 4.44.2
+    dev: false
     optional: true
 
   /babel-loader/8.1.0_yhx67fuywqkvpc6wycwfpdvcw4:

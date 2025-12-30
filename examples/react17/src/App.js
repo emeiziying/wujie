@@ -12,6 +12,7 @@ import "antd/es/button/style/css";
 import "antd/es/modal/style/css";
 import "antd/es/select/style/css";
 import "antd/es/popover/style/css";
+import MapComponent from "./MapContainer";
 
 const basename = process.env.NODE_ENV === "production" ? "/demo-react17/" : "";
 
@@ -35,6 +36,7 @@ const Home = () => (
         仓库地址
       </Button>
     </p>
+    <MapComponent />
   </div>
 );
 
